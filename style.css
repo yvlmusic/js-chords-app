@@ -1,0 +1,24 @@
+body {direction:rtl; background:#fff; padding:0; margin:0; font-size:16pt;}
+
+ul#letters {margin:0; padding:0;}
+ul#letters li {display: inline-block; width:21%; margin: 2% 2% 0;}
+button {
+	display:block; width:100%; font-size:3em; background:#1abc9c; color:#fff;
+	border-width: 0 0 5px 0px; border-style:solid; border-color:#ddd;
+}
+button.minor {background:#F8B600; width:1em; height:1em; line-height: 0em; border-radius:50%; box-shadow: -2px 2px 3px #bbb;}
+
+#back_btn {position:fixed; left:0; bottom:0; width:100%;; height:1em; line-height:1em; border:0 none; display:none;}
+
+ul#songs_list {margin:0; padding:0;height:100%; display:none; padding-bottom:3em;}
+ul#songs_list li {list-style:none; font-size:2em; padding: 0 .4em; line-height:2em;}
+ul#songs_list li:nth-child(odd) {background: #eee;}
+ul#songs_list li:nth-child(even) {background: #efff;}
+
+#song_view {display:none; text-align:center;}
+#song_view h2 {text-align:center;}
+#song_view p {direction:ltr; display:inline-block; text-align:left; margin:0 auto 2%; font-size:2em; padding:0 30px;}
+#song_view #song_controls {position: absolute; bottom:4em; width: 100%;}
+#song_view #song_controls button {display:inline-block;}
+#song_view #song_controls label {display:inline-block; width:39%; font-size:2em; text-align:center;}
+
