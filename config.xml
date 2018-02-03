@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "org.yuval.chords"
+    versionCode = "10"
+    version     = "0.1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>יובל</name>
+
+  <description>
+      אפליקציית אקורדים לשירים משיחיים
+  </description>
+
+  <author href="http://yvl.org.il/" email="contact@yvl.org.il">
+      פרוייקט יובל
+  </author>
+
+</widget>
