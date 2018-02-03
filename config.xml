@@ -16,5 +16,6 @@
   <author href="http://yvl.org.il/" email="contact@yvl.org.il">
       פרוייקט יובל
   </author>
+      <icon src="icon.png" />
 
 </widget>
